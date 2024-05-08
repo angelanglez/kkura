@@ -1,0 +1,37 @@
+body {
+    background-color: #ffe3e1
+}
+
+.title {
+    color: #ff9494;
+    font-family: "Courier New";
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    color: #ff9494;
+    font-family: "Courier New";
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+h4 {
+    color: #ff7070;
+    font-family: "Courier New";
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left
+}
+
+
+p {
+    color: #ff7070;
+    font-family: "Courier New";
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left
+}
