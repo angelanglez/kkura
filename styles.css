@@ -7,6 +7,7 @@ body {
     margin-right: 50px;
     font-family: "Courier New";
     box-sizing: border-box;
+    /* outline: 2px solid red; */ 
 }
 
 p{
@@ -17,8 +18,12 @@ p{
     margin-left: 50px;
 }
 
-#reducelineheight {
-    line-height: 50%;
+#removemargin{
+    margin-left: 0px;
+}
+
+#reducemargin {
+    margin-top: -30px;
 }
 
 .linebreak {
@@ -85,6 +90,7 @@ p{
     font-size: 20px;
     font-weight: 200;
     text-align: left;
+    overflow: hidden;
 }
 
 .sectionhead {
@@ -129,3 +135,9 @@ p{
     border: 5px solid #C27E79;
 }
 
+.bbcsroles {
+    color: #ff7070;
+    font-family: "Courier New";
+    font-size: 28px;
+    font-weight: 300;
+}
