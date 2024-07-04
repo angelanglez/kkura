@@ -35,3 +35,15 @@ p {
     font-weight: 200;
     text-align: left
 }
+
+.page-break {
+    color:#ffe3e1
+}
+
+.header {
+    color: #ff9494;
+    font-family: "Courier New";
+    font-size: 70px;
+    font-weight: 600;
+    text-align: left;
+}
