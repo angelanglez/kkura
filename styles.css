@@ -19,10 +19,6 @@ p{
     color: #ff9494;
 }
 
-#first{
-    margin-left: 50px;
-}
-
 #removemargin{
     margin-left: 0px;
 }
@@ -35,16 +31,27 @@ p{
     color: #ffe3e1;
 }
 
-.title {
+.title1 {
     color: #FFD1D1;
-    font-family: "Sanchez";
-    font-style: italic;
+    font-family: "Shrikhand";
+    font-style: normal;
     font-size: 100px;
     font-weight: 600;
     text-align: center;
-    margin-top: 40px;
-    letter-spacing: 1px;
+    margin-top: 50px;
+    letter-spacing: 10px;
     -webkit-text-stroke: 1px #d7a5a2;
+}
+.title2 {
+    color: #FFF5E4;
+    font-family: "Sanchez";
+    font-style: italic;
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -200px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px #d7a5a2; 
 }
 
 .subpageheading {
