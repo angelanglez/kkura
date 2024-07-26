@@ -8,6 +8,7 @@ body {
 }
 
 *{
+    margin-left: 50px;
     margin-right: 50px;
     font-family: "Sanchez";
     box-sizing: border-box;
@@ -19,16 +20,17 @@ p{
 }
 
 a{
-    margin-left: 50px;
-}
-
-#removemargin{
     margin-left: 0px;
 }
 
 #reducemargin {
-    margin-top: -30px;
+    margin-top: -20px;
 }
+
+#removemargin {
+    margin-top: 0px;
+}
+
 
 .linebreak {
     color: #ffe3e1;
@@ -66,16 +68,31 @@ a{
     font-size: 80px;
     font-weight: 600;
     text-align: left;
-    margin-top: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     -webkit-text-stroke: 1px #d7a5a2;
 }
 
 .parahead {
-    margin-left: 50px;
+    margin-left: 0px;
     color: #ff9494;
     font-size: 40px;
     font-weight: 600;
     text-align: left;
+}
+
+.introsubhead {
+    margin-left: 50px;
+    color: #ff7070;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.parasubhead {
+    margin-left: 0px;
+    color: #ff7070;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .intro1 {
@@ -90,20 +107,23 @@ a{
     margin-top: -50px;
 }
 
-.parasubhead {
-    margin-left: 50px;
-    color: #ff7070;
-    font-size: 30px;
-    font-weight: 300;
-}
-
 #intro2{
     text-align: left;
     margin-top: -30px;
 }
 
+.introbody {
+    margin-left: 50px;
+    color: #fc6565;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+    overflow: hidden;
+}
 
 .parabody {
+    margin-left: 0px;
+    margin-right: 0px;
     color: #fc6565;
     font-size: 20px;
     font-weight: 200;
@@ -122,22 +142,16 @@ a{
     border-radius: 20px;
     display: block;
     float: right;
-    margin-right: 50px;
+    margin-right: 0px;
     border: 10px solid #d7a5a2;
 }
 
-.home {
-    margin-left: px;
-    margin-right: 0px;
-    float: left;
-
-}
-
 .navbar {
-    margin-left: 50px;
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 15px;
     font-size: 20px;
-    float: right;
+    float: left;
     font-family: "retropix";
     letter-spacing: -1px;
     color: #C27E79;
@@ -155,8 +169,10 @@ a{
     border-radius: 10px;
     display: block;
     float: left;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
     border: 5px solid #C27E79;
+
 }
 
 .bbcsroles {
@@ -165,8 +181,15 @@ a{
     font-weight: 300;
 }
   
-.icon {
+.iconlink {
     margin-left: 50px;
+    margin-top: 30;
     height: 50px;
     fill: #d7a5a2;
+}
+
+#icon {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
